@@ -1,0 +1,16 @@
+# Ignore hidden folders #
+# This takes care of .tmp, .sass-cache, and many others #
+.*/
+
+# Ignore OS generated files #
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Ignore for Jekyll projects #
+assets
+_site
+node_modules
+.tmp
+.idea
