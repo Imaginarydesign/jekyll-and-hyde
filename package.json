@@ -1,16 +1,17 @@
 {
   "name": "jekyll-and-hyde",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/Imaginarydesign/jekyll-and-hyde.git"
+    },
   "description": "",
   "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "Adam Koniuszewski",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.8.8",
-    "gulp-sass": "^0.7.2",
+    "gulp-sass": "^2.0.4",
     "browser-sync": "^1.1.2",
     "gulp-autoprefixer": "0.0.7",
     "gulp-rename": "~1.2.0",
